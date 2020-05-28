@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+ <main>
+  <section class="login-container">
+   <div class="loginbox">
+	  <img src="static/img/icons/logo-img-white.svg" alt="logo" class="avatar"/>
+	  <form method="post">
+		   <!-- <p>Username</p> -->
+            <input type="text" name="username" placeholder="USERNAME"/>
+		   <!-- <p>Email</p>
+			<input type="email" name="email" placeholder="EMAIL ADDRESS"/> -->
+		   <!-- <p>Password</p> -->
+			<input type="password" name="password" placeholder="PASSWORD"/>
+            <!-- <p>Password Repeat</p>
+            <input type="password" name="repeat" placeholder="REPEAT PASSWORD"/> -->
+			<br>
+		    <button type="submit">Login</button>
+	  </form>
+   </div>
+  </section>
+ </main>
+
+{% endblock content %}

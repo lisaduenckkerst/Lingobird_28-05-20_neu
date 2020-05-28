@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+ <main id="bootstrap-overrides">
+  <div class="team row">
+                <div class="col-md-12 col-12 text-center justify-content-center card-alignment">
+
+
+                    <div class="welcome-user">
+                         <h1 class="text-dark">Welcome {{user.username}}</h1>
+                    </div>
+
+
+
+                          <div class="col-md-12 col-12 card-alignment">
+
+
+                              <div class="carousel-inner">
+
+                                  <div class="carousel-item active text-center">
+                                       <div class="card-body-2-user">
+                                          <div class="purple-rectangle-intro">
+                                              <div class="card-body-2-img">
+                                                  <div id="profile-img">
+                                                    <img id="img-about-left-align" src="./static/img/icons/profile-picture-icon.svg" alt="about-icon"/>
+                                                  </div>
+                                              </div>
+                                                <div class="card-body-3-content">
+                                                    <div id="left-align">
+                                                        <p class="text-dark"> <span class="profile-bold">Username:</span> {{user.username}}</p>
+
+                                                        <!-- CHANGING FORM -->
+                                                        <form method="post">
+                                                            <input type="text" name="firstname" placeholder="First Name" class="text-dark"/>
+                                                            <input type="text" name="lastname" placeholder="Last Name" class="text-dark"/>
+                                                            <br>
+                                                            <button type="submit">Save Changes</button>
+                                                        </form>
+
+
+                                                    </div>
+                                                </div>
+                                          </div>
+
+                                        </div>
+
+                                    </div>
+                               </div>
+                          </div>
+                </div>
+  </div>
+ </main>
+
+{% endblock content %}

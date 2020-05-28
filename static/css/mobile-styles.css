@@ -1,0 +1,512 @@
+@media only screen and (min-width : 768px) {
+
+  .section-4 .team{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  #bootstrap-override{
+    margin-left: -35px;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+  #bootstrap-override{
+    margin-left: -15px;
+  }
+
+  header .navbar-brand{
+    padding-left: 1rem;
+  }
+
+  .header .navbar-toggler i{
+    color: #4B3F5A;
+  }
+
+  #dropdown-content a{
+    padding-left: 0.9em;
+  }
+
+  .section-1 .row .col-md-6 .panel{
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+
+  .section-2 .cover{
+    background-position: -25vmin -10vmin;
+  }
+
+  .section-2 .intro .card-1{
+    margin-top: 2rem;
+  }
+
+  .section-2 .intro .card-1 p{
+    font-size: 4vmin;
+  }
+
+  .section-2 .intro .card-body-1{
+    padding-top: 0rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .section-2 #text-orange{
+    font-size: 4.5vmin;
+    margin-top: 7vmin;
+    margin-bottom: 4.5vmin;
+  }
+
+  .card .card-text{
+    font-size: 4vmin !important;
+}
+
+  .card .pricing h1{
+    font-size: 6vmin !important;
+}
+
+  .numbers .rect{
+    width: 10rem;
+    height: 8rem;
+  }
+
+  .numbers .rect h1{
+    font-size: 2rem;
+  }
+
+  .section-3{
+    height: inherit;
+    padding: 10vmin !important;
+  }
+
+  .section-3 .row h1{
+    padding: 6vmin 4vmin;
+    }
+
+  .section-3 .row .col-md-6{
+    text-align: center !important;
+  }
+
+  .section-3 .desktop i{
+    font-size: 8vmin;
+  }
+
+  .section-4 .carousel-item{
+    padding-left: 0.6rem;
+  }
+
+
+  .section-4 .team{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .section-4 .carousel-inner{
+    width: 24rem;
+    padding-right:
+  }
+
+  .section-4 .card{
+    width: 18rem;
+  }
+
+  .section-4 .card-alignment{
+    margin-bottom: 10vmin;
+    }
+
+  .section-5{
+    margin-bottom: -14vmin;
+    }
+
+   .profile-card {
+    width: 18rem !important;
+    height: 30rem !important;
+  }
+
+  #gallery{
+    width: 100%;
+  }
+
+
+  .discover-heading-wrapper {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 10vmin;
+    padding-top: 5vmin;
+    left: 0;
+  }
+
+  .discover-heading .intro h1{
+    padding: 0;
+  }
+
+  .shadow-lg {
+    box-shadow: 0 0.001rem 0.9rem rgba(0,0,0,.175)!important;
+  }
+
+
+  .profile-card .btn{
+    height: 35px;
+    padding: 5px;
+  }
+
+  .profile-card .card-body{
+    margin-top: 3vmin;
+  }
+
+  .event-cards{
+    margin-bottom: 13vmin;
+    margin-top: 13vmin;
+    overflow-x: visible;
+  }
+
+  .contact-box{
+    grid-template-columns: 1fr;
+  }
+
+
+  .contact-left{
+    height: 0px;
+  }
+
+}
+
+  /*.section-4 .team-row
+}*/
+
+
+/*MAX WIDTH 425*/
+
+
+@media only screen and (max-width: 425px) {
+
+  #bootstrap-override{
+    margin-left: -35px;
+  }
+
+  .footer .row.col-md-2{
+    margin-top: 8vmin;
+  }
+}
+
+
+
+
+/*MAX WIDTH 768*/
+
+
+@media only screen and (max-width: 768px) {
+
+  #bootstrap-override{
+    margin-left: -35px;
+  }
+
+  header .navbar-brand{
+  padding-left: 1rem;
+  }
+
+
+  header .navbar-toggler i{
+    color: #4B3F5A;
+  }
+
+  .section-1 .row .col-md-6 .panel{
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+
+  .section-2 .cover{
+    background-position: -25vmin -10vmin;
+  }
+
+  .section-2 .intro .card-1{
+    margin-top: 2rem;
+  }
+
+  .section-2 .intro .card-1 p{
+    font-size: 4vmin;
+  }
+
+  .section-2 .intro .card-body-1 h1{
+    font-size: 6.5vmin !important;
+  }
+
+  .section-2 .intro .card-body-1{
+    padding-top: 0rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1.5rem;
+  }
+
+
+  .section-2 .intro .arrow-2{
+    margin: 0vmin;
+    padding-bottom: 0.5rem;
+  }
+
+  .section-2 #text-orange{
+    font-size: 4.5vmin;
+    margin-top: 7vmin;
+    margin-bottom: 4.5vmin;
+  }
+
+  .card .card-text{
+    font-size: 4vmin !important;
+}
+
+  .card .pricing h1{
+    font-size: 6.5vmin !important;
+}
+
+
+  .intro .cards .card{
+  width: 28rem;
+  }
+
+  .numbers .rect{
+    width: 10rem;
+    height: 8rem;
+  }
+
+  .numbers .rect h1{
+    font-size: 2rem;
+  }
+
+  .section-3{
+    height: inherit;
+    padding: 10vmin !important;
+  }
+
+  .section-3 .row h1{
+    padding: 6vmin 4vmin;
+    }
+
+  .section-3 .row .col-md-6{
+    text-align: center !important;
+  }
+
+  .section-3 .desktop i{
+    font-size: 8vmin;
+  }
+
+  .section-4 {
+    margin-top: 2rem;
+  }
+
+  .section-4 .container h1{
+    padding-top: 0vmin !important;
+    font-size: 6.5vmin;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+   .section-4 .intro .card-1{
+    margin-top: 0rem !important;
+  }
+
+  .section-4 .intro .arrow-2{
+    margin: 0vmin;
+  }
+
+  .section-4 .carousel-item{
+    padding-left: 0.6rem;
+  }
+
+  .section-4 .team{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+
+  .section-4 .carousel-inner{
+    width:
+    padding-right:
+  }
+
+
+  .section-5{
+    margin-top: -7rem;
+}
+
+}
+
+  .section-5 .container h1{
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+}
+
+  .loginbox{
+    margin-bottom: 70vmin;
+}
+
+
+
+}
+
+
+  /*.section-4 .team-row
+}*/
+
+
+
+/*MAX WIDTH 425*/
+
+
+@media only screen and (max-width: 425px) {
+
+  #bootstrap-override{
+    margin-left: -30px;
+    }
+
+  .footer .row.col-md-2{
+    margin-top: 8vmin;
+  }
+
+  .loginbox{
+    margin-bottom: 70vmin;
+}
+}
+
+
+
+
+
+@media only screen and (max-width: 320px) {
+
+  .section-4 .card{
+    width: 18rem;
+  }
+
+   .section-4 .carousel-inner{
+     margin-left: -14vmin;
+  }
+
+}
+
+
+/* ----------- iPad only ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+.section-2 .intro .card-body-1 h1 {
+    font-size: 4.9vmin !important;
+    padding-bottom: 0vmin;
+}
+
+.section-2 .intro .card-1 p {
+    font-size: 2.5vmin;
+}
+
+.section-2 .intro .card-body-1 {
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+.section-2 #text-orange {
+    font-size: 3.5vmin;
+    margin-top: 4.5vmin;
+    margin-bottom: 4.5vmin;
+}
+
+.intro .card-body-2-content p {
+    font-size: 2.1vmin;
+
+}
+
+.purple-rectangle-intro {
+    height: 210px;
+    width: 90%;
+}
+
+
+.card .pricing h1 {
+    font-size: 3.5vmin !important;
+}
+
+.card .card-text {
+    font-size: 2.1vmin !important;
+}
+
+
+.section-4 {
+    margin-top: 3.5rem;
+}
+
+.section-4 .container h1 {
+    font-size: 5vmin;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+.section-5 {
+    margin-top: -5rem;
+}
+
+.section-5 .container h1 {
+    font-size: 5vmin;}
+
+   }
+
+
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 1024px)
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+  .intro .cards .card{
+  width: 28rem;
+  }
+
+  .purple-rectangle-intro {
+  height: 250px;
+  }
+
+  .section-2 .intro .card-1 p {
+    font-size: 2vmin;
+}
+
+.section-2 #text-orange {
+    font-size: 3vmin;
+    }
+
+.card .pricing h1 {
+    font-size: 3vmin !important;
+}
+
+.card .card-text {
+    font-size: 2vmin !important;
+}
+
+.section-4 .container h1 {
+  padding-top: 4vmin;
+
+}
+
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen
+  and (min-device-width: 1024px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}

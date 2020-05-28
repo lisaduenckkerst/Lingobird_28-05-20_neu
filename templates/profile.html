@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+ <main id="bootstrap-overrides">
+  <div class="team row">
+                <div class="col-md-12 col-12 text-center justify-content-center card-alignment">
+
+
+                    <div class="welcome-user">
+                         <h1 class="text-dark">Welcome {{user.username}}</h1>
+                    </div>
+
+
+                       <!-- Profile Picture and Basic Data -->
+                          <div class="col-md-12 col-12 card-alignment">
+                              <div class="carousel-inner">
+
+                                  <div class="carousel-item active text-center">
+                                       <div class="card-body-2-user">
+                                          <div class="purple-rectangle-intro">
+                                              <div class="card-body-2-img">
+                                                  <div id="profile-img">
+                                                    <img id="img-about-left-align" src="./static/img/icons/profile-picture-icon.svg" alt="about-icon"/>
+                                                  </div>
+                                              </div>
+                                                <div class="card-body-3-content">
+                                                    <div id="left-align">
+                                                        <p class="text-dark"> <span class="profile-bold">Username:</span> {{user.username}}</p>
+
+                                                        {% if profile_owner_data %}
+                                                        {% for profile_owner_data in profile_owner_data %}
+                                                        <p class="text-dark"> <span class="profile-bold">First Name: </span>{{firstname}}</p>
+                                                        <p class="text-dark"> <span class="profile-bold">Last Name: </span>{{lastname}}</p>
+                                                        {% endfor %}
+
+                                                        {% else %}
+                                                        <p class="text-dark"> <span class="profile-bold">First Name:</span> /</p>
+                                                        <p class="text-dark"> <span class="profile-bold">Last Name:</span> /</p>
+                                                        {% endif %}
+
+
+                                                        {% if profile_owner_data %}
+                                                        <a href="/profile-edit/{{profile_owner_data.id}}" class="A btn px-5 py-2 mb-5">Edit profile</a>
+
+                                                        {% else %}
+                                                        <a href="/profile-add" class="A btn px-5 py-2 mb-5">Edit profile</a>
+                                                        {% endif %}
+
+                                                    </div>
+                                                </div>
+                                          </div>
+
+                                        </div>
+
+                                    </div>
+                               </div>
+                          </div>
+
+
+                    <!-- Calendar?
+
+                    <div class="col-md-12 col-12 card-alignment">
+
+                              <div class="carousel-inner">
+
+                                  <div class="carousel-item active text-center">
+                                       <div class="card-body-2-user">
+                                          <div class="purple-rectangle-intro">
+                                              <div class="card-body-2-img">
+                                                  <div id="profile-img">
+                                                    <img id="img-about-left-align" src="./static/img/icons/profile-picture-icon.svg" alt="about-icon"/>
+                                                  </div>
+                                              </div>
+                                                <div class="card-body-3-content">
+                                                    <div id="left-align">
+                                                        <p class="text-dark"> <span class="profile-bold">Username:</span> {{user.username}}</p>
+
+                                                        {% if profile_owner_data %}
+                                                        {% for profile_owner_data in profile_owner_data %}
+                                                        <p class="text-dark"> <span class="profile-bold">First Name: </span>{{firstname}}</p>
+                                                        <p class="text-dark"> <span class="profile-bold">Last Name: </span>{{lastname}}</p>
+                                                        {% endfor %}
+
+                                                        {% else %}
+                                                        <p class="text-dark"> <span class="profile-bold">First Name:</span> /</p>
+                                                        <p class="text-dark"> <span class="profile-bold">Last Name:</span> /</p>
+                                                        {% endif %}
+
+
+                                                        {% if profile_owner_data %}
+                                                        <a href="/profile-edit/{{profile_owner_data.id}}" class="A btn px-5 py-2 mb-5">Edit profile</a>
+
+                                                        {% else %}
+                                                        <a href="/profile-add" class="A btn px-5 py-2 mb-5">Edit profile</a>
+                                                        {% endif %}
+
+                                                    </div>
+                                                </div>
+                                          </div>
+
+                                        </div>
+
+                                    </div>
+                               </div>
+                          </div>
+                            -->
+
+                </div>
+  </div>
+ </main>
+
+{% endblock content %}

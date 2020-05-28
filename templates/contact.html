@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+    <div class="contact-container">
+        <div class="contact-box">
+            <div class="contact-left"></div>
+            <div class="contact-right">
+                <h2>Get In Touch</h2>
+                <form method="POST" action="/contact">
+                 <input type="text" class="field" name="contact_name" placeholder="Name">
+                 <input type="email" class="field" name="contact_email" placeholder="Email">
+                 <textarea class="field area" name="contact_message" placeholder="Message"></textarea>
+                 <button class="btn" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+{% endblock content %}
